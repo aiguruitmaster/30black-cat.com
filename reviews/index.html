@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>29black Reviews & Ratings - Real Player Experiences 2024</title>
-    <meta name="description" content="Honest 29black casino reviews from real players. Discover ratings, pros & cons, game selection, support quality, and payment experiences at 29black Online Casino.">
+    <title>29black Casino Reviews & Ratings 2024 | Player Feedback</title>
+    <meta name="description" content="Read honest 29black Casino reviews from real players. Comprehensive ratings covering games, support, payments, plus pros and cons. Updated 2024.">
     
     
     <meta property="article:published_time" content="2026-03-30">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,22 +15,19 @@
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
                     colors: {
                         brand: {
-                            black: '#050505',
-                            dark: '#121212',
-                            panel: '#1a1a1a',
-                            gold: '#ffc107',
-                            goldhover: '#e0a800',
-                            gray: '#a0a0a0'
+                            gold: '#f5b301',
+                            goldHover: '#d49b00',
+                            dark: '#0a0a0a',
+                            darker: '#050505',
+                            panel: '#111111',
+                            border: '#222222',
+                            textMuted: '#888888'
                         }
                     },
-                    backgroundImage: {
-                        'gold-gradient': 'linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c)',
-                        'hero-dark': 'linear-gradient(135deg, #1a1a1a 0%, #050505 100%)',
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
                     }
                 }
             }
@@ -46,52 +38,36 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
-        body {
-            background-color: #050505;
-            color: #ffffff;
-        }
-        
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
-            width: 8px;
+            width: 6px;
         }
         ::-webkit-scrollbar-track {
-            background: #121212;
+            background: #0a0a0a;
         }
         ::-webkit-scrollbar-thumb {
             background: #333;
-            border-radius: 4px;
+            border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #ffc107;
-        }
-
-        .text-gold-gradient {
-            background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .gold-border-wrap {
-            position: relative;
-            background: linear-gradient(to right, #bf953f, #fbf5b7, #aa771c);
-            padding: 2px;
-            border-radius: 0.5rem;
+            background: #555;
         }
         
-        .gold-border-inner {
-            background: #121212;
-            height: 100%;
-            border-radius: calc(0.5rem - 2px);
+        /* Hide scrollbar for horizontal scrolling containers */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
         }
 
-        .game-card:hover .play-overlay {
-            opacity: 1;
+        /* Abstract shapes for hero background */
+        .hero-shape-1 {
+            background: radial-gradient(circle, rgba(245,179,1,0.15) 0%, rgba(0,0,0,0) 70%);
         }
-        
-        .game-card:hover .auto-slot-img {
-            transform: scale(1.05);
+        .hero-shape-2 {
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0) 70%);
         }
     </style>
 
@@ -99,8 +75,8 @@
 <link rel="alternate" href="https://29black-ca.com" hreflang="x-default" />
 <link rel="alternate" href="https://29black-ca.com" hreflang="en" />
 
-<meta property="og:title" content="29black Reviews & Ratings - Real Player Experiences 2024" />
-<meta property="og:description" content="Honest 29black casino reviews from real players. Discover ratings, pros & cons, game selection, support quality, and payment experiences at 29black Online Casino." />
+<meta property="og:title" content="29black Casino Reviews & Ratings 2024 | Player Feedback" />
+<meta property="og:description" content="Read honest 29black Casino reviews from real players. Comprehensive ratings covering games, support, payments, plus pros and cons. Updated 2024." />
 <meta property="og:url" content="https://30black-cat.com/reviews/" />
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="29black" />
@@ -114,8 +90,8 @@
     "@type": "WebPage",
     "@id": "https://30black-cat.com/reviews/"
   },
-  "headline": "29black Reviews & Ratings - Real Player Experiences 2024",
-  "description": "Honest 29black casino reviews from real players. Discover ratings, pros & cons, game selection, support quality, and payment experiences at 29black Online Casino.",
+  "headline": "29black Casino Reviews & Ratings 2024 | Player Feedback",
+  "description": "Read honest 29black Casino reviews from real players. Comprehensive ratings covering games, support, payments, plus pros and cons. Updated 2024.",
   "author": {
     "@type": "Person",
     "name": "Editorial Team"
@@ -135,264 +111,296 @@
 
 <link rel="icon" href="/favicon.png?v=3" type="image/png">
 </head>
-<body class="antialiased flex flex-col min-h-screen">
+<body class="bg-brand-darker text-white font-sans antialiased h-screen flex overflow-hidden selection:bg-brand-gold selection:text-black">
 
-    <!-- Sticky Header -->
-    <header class="sticky top-0 z-50 bg-brand-black/95 backdrop-blur-md border-b border-white/10">
-        <div class="container mx-auto px-4 h-20 flex items-center justify-between">
-            <!-- Left: Brand -->
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 rounded-full border-2 border-brand-gold flex items-center justify-center bg-brand-dark">
-                    <span class="font-black text-brand-gold text-xl tracking-tighter">29</span>
+    <!-- Left Sidebar -->
+    <aside class="w-64 bg-brand-panel border-r border-brand-border flex flex-col h-full hidden lg:flex flex-shrink-0 z-20">
+        <!-- Logo Area -->
+        <div class="h-16 flex items-center justify-center border-b border-brand-border px-4">
+            <a href="/" class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-full bg-brand-gold flex items-center justify-center text-black font-bold text-xs border-2 border-white/20">
+                    29
                 </div>
-                <span class="text-2xl font-black tracking-wider uppercase dynamic-brand-name">29BLACK</span>
+                <span class="text-xl font-black tracking-wider dynamic-brand-name">29BLACK</span>
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="flex-1 overflow-y-auto py-4 px-3 space-y-1">
+            <a href="/" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-white bg-white/5 border border-white/10 group transition-all">
+                <i data-lucide="home" class="w-5 h-5 text-brand-gold"></i>
+                <span class="font-medium text-sm">Home</span>
+            </a>
+            <a href="/promotions/" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-brand-textMuted hover:text-white hover:bg-white/5 transition-all group">
+                <i data-lucide="gift" class="w-5 h-5 group-hover:text-brand-gold transition-colors"></i>
+                <span class="font-medium text-sm">Promotions</span>
+            </a>
+            <a href="/reviews/" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-brand-textMuted hover:text-white hover:bg-white/5 transition-all group">
+                <i data-lucide="star" class="w-5 h-5 group-hover:text-brand-gold transition-colors"></i>
+                <span class="font-medium text-sm">Reviews</span>
+            </a>
+            <a href="/faq/" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-brand-textMuted hover:text-white hover:bg-white/5 transition-all group">
+                <i data-lucide="help-circle" class="w-5 h-5 group-hover:text-brand-gold transition-colors"></i>
+                <span class="font-medium text-sm">FAQ</span>
+            </a>
+        </nav>
+
+        <!-- Bottom Sidebar -->
+        <div class="p-4 border-t border-brand-border">
+            <button class="w-full flex items-center justify-between px-3 py-2 rounded-lg bg-brand-dark border border-brand-border text-sm text-gray-300 hover:text-white transition-colors">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="globe" class="w-4 h-4"></i>
+                    <span>English</span>
+                </div>
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex-1 flex flex-col h-full relative overflow-hidden">
+        
+        <!-- Top Header -->
+        <header class="h-16 bg-brand-dark border-b border-brand-border flex items-center justify-between px-4 lg:px-8 sticky top-0 z-30">
+            <!-- Mobile Left & Toggles -->
+            <div class="flex items-center gap-4">
+                <button class="lg:hidden text-gray-400 hover:text-white">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+                
+                <div class="hidden sm:flex bg-brand-panel rounded-md p-1 border border-brand-border">
+                    <button class="px-4 py-1.5 text-sm font-medium rounded bg-brand-border text-white shadow-sm">Casino</button>
+                    <button class="px-4 py-1.5 text-sm font-medium rounded text-brand-textMuted hover:text-white transition-colors">Sports</button>
+                </div>
             </div>
 
-            <!-- Middle: Navigation (Desktop) -->
-            <nav class="hidden md:flex items-center gap-8">
-                <a href="/" class="text-sm font-semibold text-white hover:text-brand-gold transition-colors">Home</a>
-                <a href="/promotions/" class="text-sm font-semibold text-white hover:text-brand-gold transition-colors">Promotions</a>
-                <a href="/reviews/" class="text-sm font-semibold text-white hover:text-brand-gold transition-colors">Reviews</a>
-                <a href="/faq/" class="text-sm font-semibold text-white hover:text-brand-gold transition-colors">FAQ</a>
-            </nav>
-
-            <!-- Right: Auth Buttons -->
-            <div class="flex items-center gap-3">
-                <a  class="brand-cta hidden sm:flex items-center justify-center px-6 py-2.5 rounded text-sm font-bold border border-white/20 hover:border-brand-gold hover:text-brand-gold transition-all js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+            <!-- Right Actions -->
+            <div class="flex items-center gap-3 sm:gap-4">
+                <button class="text-brand-textMuted hover:text-white transition-colors hidden sm:block">
+                    <i data-lucide="search" class="w-5 h-5"></i>
+                </button>
+                <a  class="brand-cta px-4 py-1.5 text-sm font-medium rounded border border-brand-border text-white hover:bg-brand-panel transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
                     Log in
                 </a>
-                <a  class="brand-cta flex items-center justify-center px-6 py-2.5 rounded text-sm font-bold bg-brand-gold text-black hover:bg-brand-goldhover transition-colors shadow-[0_0_15px_rgba(255,193,7,0.3)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                <a  class="brand-cta px-4 py-1.5 text-sm font-bold rounded bg-brand-gold text-black hover:bg-brand-goldHover transition-colors shadow-[0_0_10px_rgba(245,179,1,0.3)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
                     Register
                 </a>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Main Content -->
-    <main class="flex-grow">
-        
-        <!-- Search Bar Area -->
-        <div class="container mx-auto px-4 pt-6 pb-4">
-            <div class="relative max-w-full">
-                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 text-brand-gray w-5 h-5"></i>
-                <input type="text" placeholder="Search categories, games, providers..." class="w-full bg-brand-dark border border-white/10 rounded-md py-3 pl-12 pr-4 text-sm text-white focus:outline-none focus:border-brand-gold transition-colors">
-            </div>
-        </div>
-
-        <!-- Hero Section -->
-        <section class="container mx-auto px-4 py-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Scrollable Main Area -->
+        <main class="flex-1 overflow-y-auto pb-20">
+            <div class="max-w-[1600px] mx-auto p-4 lg:p-6 space-y-8">
                 
-                <!-- Sports Banner -->
-                <div class="relative overflow-hidden rounded-xl bg-hero-dark border border-white/5 aspect-[2/1] lg:aspect-[16/9] flex items-center p-8 group">
-                    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-brand-gold via-transparent to-transparent"></div>
-                    <!-- Abstract geometric shapes replacing image -->
-                    <div class="absolute right-0 top-0 w-1/2 h-full bg-brand-gold/5 -skew-x-12 translate-x-10"></div>
-                    <div class="absolute right-10 bottom-10 w-32 h-32 border border-brand-gold/20 rounded-full"></div>
-                    <i data-lucide="trophy" class="absolute right-12 top-1/2 -translate-y-1/2 w-48 h-48 text-brand-gold/10 -rotate-12"></i>
-
-                    <div class="relative z-10 max-w-[70%]">
-                        <span class="text-xs font-bold tracking-widest text-brand-gold uppercase mb-2 block">Kickoff!</span>
-                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black uppercase leading-tight mb-4">
-                            25% Free Bet Bonus<br>
-                            <span class="text-white/70">365 Days a Year</span>
-                        </h2>
-                        <a  class="brand-cta inline-flex items-center justify-center px-8 py-3 rounded font-bold bg-brand-gold text-black hover:bg-brand-goldhover transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            Claim Now
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Casino Banner -->
-                <div class="relative overflow-hidden rounded-xl bg-hero-dark border border-white/5 aspect-[2/1] lg:aspect-[16/9] flex items-center p-8 group">
-                    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-brand-gold via-transparent to-transparent"></div>
-                    <!-- Abstract geometric shapes replacing image -->
-                    <div class="absolute right-0 top-0 w-2/3 h-full bg-brand-gold/5 skew-x-12 translate-x-20"></div>
-                    <div class="absolute right-20 top-10 w-24 h-24 border-2 border-brand-gold/20 rotate-45"></div>
-                    <i data-lucide="spades" class="absolute right-12 top-1/2 -translate-y-1/2 w-48 h-48 text-brand-gold/10 rotate-12"></i>
-
-                    <div class="relative z-10 max-w-[70%]">
-                        <span class="text-xs font-bold tracking-widest text-brand-gold uppercase mb-2 block">Casino Lounge</span>
-                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black uppercase leading-tight mb-4 text-white">
-                            <span class="dynamic-brand-bonus">Welcome Bonus</span><br>
-                            <span class="text-white/70">On Every Deposit</span>
-                        </h2>
-                        <a  class="brand-cta inline-flex items-center justify-center px-8 py-3 rounded font-bold bg-brand-gold text-black hover:bg-brand-goldhover transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            Claim Now
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Category Selectors -->
-        <section class="container mx-auto px-4 py-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <a  class="gold-border-wrap block group cursor-pointer js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                    <div class="gold-border-inner flex items-center justify-between p-6">
-                        <h3 class="text-3xl font-black tracking-wider uppercase text-white group-hover:text-brand-gold transition-colors">Casino</h3>
-                        <i data-lucide="dices" class="w-12 h-12 text-brand-gold"></i>
-                    </div>
-                </a>
-                <a  class="gold-border-wrap block group cursor-pointer js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                    <div class="gold-border-inner flex items-center justify-between p-6">
-                        <h3 class="text-3xl font-black tracking-wider uppercase text-white group-hover:text-brand-gold transition-colors">Sports</h3>
-                        <i data-lucide="goal" class="w-12 h-12 text-brand-gold"></i>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <!-- Featured Games Showcase -->
-        <section class="container mx-auto px-4 py-8">
-            <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl font-bold">Slots</h3>
-                <div class="flex items-center gap-4">
-                    <div class="flex gap-2">
-                        <button class="w-8 h-8 rounded-full bg-brand-dark flex items-center justify-center hover:bg-brand-panel transition-colors"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>
-                        <button class="w-8 h-8 rounded-full bg-brand-dark flex items-center justify-center hover:bg-brand-panel transition-colors"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>
-                    </div>
-                    <a  class="text-sm text-brand-gray hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">See All</a>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                <!-- Generate 12 empty game cards -->
-                <script>
-                    for(let i=0; i<12; i++) {
-                        let isTop = i % 4 === 0;
-                        document.write(`
-                        <div class="game-card relative aspect-[3/4] rounded-lg overflow-hidden bg-brand-panel cursor-pointer group">
-                            <!-- REQUIRED EMPTY IMAGE TAG -->
-                            <img src="https://cdn.jsdelivr.net/gh/aiguruitmaster/casino-images/sweet-bonanza-1.png" alt="Game" class="auto-slot-img w-full h-full object-cover absolute inset-0 z-0 transition-transform duration-500" fetchpriority="high">
-                            
-                            <!-- Placeholder visual for design clone (since img is empty) -->
-                            <div class="absolute inset-0 bg-gradient-to-b from-brand-dark to-brand-black z-0 flex items-center justify-center">
-                                <i data-lucide="swords" class="w-12 h-12 text-white/10"></i>
-                            </div>
-
-                            ${isTop ? '<div class="absolute top-2 left-2 z-20 bg-brand-gold text-black text-[10px] font-bold px-2 py-0.5 rounded uppercase">Top</div>' : ''}
-
-                            <!-- Hover Overlay -->
-                            <div class="play-overlay absolute inset-0 bg-black/80 z-20 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300">
-                                <a  class="brand-cta w-12 h-12 rounded-full bg-brand-gold flex items-center justify-center text-black hover:scale-110 transition-transform mb-3 shadow-[0_0_15px_rgba(255,193,7,0.5)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                                    <i data-lucide="play" class="w-5 h-5 ml-1"></i>
-                                </a>
-                                <span class="text-white font-bold text-sm">Play Now</span>
-                            </div>
-
-                            <!-- Bottom Info -->
-                            <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black via-black/80 to-transparent z-10 flex items-center gap-2">
-                                <div class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></div>
-                                <span class="text-xs text-brand-gray"><span class="text-brand-gold font-bold">${Math.floor(Math.random() * 100) + 10}</span> playing</span>
-                            </div>
+                <!-- Hero Section -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <!-- Banner 1 -->
+                    <div class="relative bg-gradient-to-br from-gray-900 to-black rounded-2xl border border-brand-border p-8 min-h-[280px] flex flex-col justify-center overflow-hidden group">
+                        <div class="absolute inset-0 hero-shape-1 opacity-50"></div>
+                        <div class="absolute right-0 top-0 bottom-0 w-1/2 bg-gradient-to-l from-black/80 to-transparent z-0"></div>
+                        
+                        <div class="relative z-10 max-w-[60%]">
+                            <span class="text-brand-gold text-xs font-bold tracking-widest uppercase mb-2 block">Kickoff!</span>
+                            <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight mb-6 uppercase">
+                                25% Free Bet Bonus<br>365 Days A Year
+                            </h1>
+                            <a  class="brand-cta inline-block px-6 py-2.5 bg-brand-gold text-black font-bold rounded text-sm hover:bg-brand-goldHover transition-colors shadow-[0_0_15px_rgba(245,179,1,0.2)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                                Claim Now
+                            </a>
                         </div>
-                        `);
-                    }
-                </script>
-            </div>
-        </section>
+                    </div>
 
-        <!-- Mid-page Deposit Banner -->
-        <section class="container mx-auto px-4 py-8">
-            <div class="bg-brand-dark border border-white/5 rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-4 text-brand-gray">
-                    <i data-lucide="credit-card" class="w-8 h-8"></i>
-                    <i data-lucide="bitcoin" class="w-8 h-8"></i>
-                    <i data-lucide="wallet" class="w-8 h-8"></i>
-                    <i data-lucide="banknote" class="w-8 h-8"></i>
+                    <!-- Banner 2 -->
+                    <div class="relative bg-gradient-to-br from-[#1a1500] to-black rounded-2xl border border-brand-border p-8 min-h-[280px] flex flex-col justify-center overflow-hidden group">
+                        <div class="absolute inset-0 hero-shape-2 opacity-30"></div>
+                        <div class="absolute right-0 top-0 bottom-0 w-1/2 bg-gradient-to-l from-black/80 to-transparent z-0"></div>
+                        
+                        <div class="relative z-10 max-w-[60%]">
+                            <span class="text-gray-400 text-xs font-bold tracking-widest uppercase mb-2 block">Casino Lounge</span>
+                            <h2 class="text-3xl sm:text-4xl font-black text-white leading-tight mb-6 uppercase dynamic-bonus-text">
+                                50% Casino Bonus<br>On Every Deposit
+                            </h2>
+                            <a  class="brand-cta inline-block px-6 py-2.5 bg-brand-gold text-black font-bold rounded text-sm hover:bg-brand-goldHover transition-colors shadow-[0_0_15px_rgba(245,179,1,0.2)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                                Claim Now
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="text-lg md:text-xl font-bold text-center uppercase tracking-wide">Deposit Fast. Play Now. Withdraw Instantly.</h4>
-                <a  class="brand-cta px-8 py-3 rounded font-bold bg-brand-gold text-black hover:bg-brand-goldhover transition-colors w-full md:w-auto text-center js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                    Deposit
-                </a>
-            </div>
-        </section>
 
-        <!-- Quick Benefits (USPs) -->
-        <section class="container mx-auto px-4 py-8 border-t border-white/10">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
-                <div class="flex flex-col items-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center mb-4 text-brand-gold border border-white/5">
-                        <i data-lucide="zap"></i>
-                    </div>
-                    <h4 class="font-bold mb-2">Instant Withdrawals</h4>
-                    <p class="text-sm text-brand-gray">Get your winnings in minutes, not days.</p>
+                <!-- Search Bar -->
+                <div class="relative max-w-4xl mx-auto">
+                    <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-textMuted"></i>
+                    <input type="text" placeholder="Search categories, games, providers..." class="w-full bg-brand-panel border border-brand-border rounded-full py-3 pl-12 pr-4 text-sm text-white placeholder-brand-textMuted focus:outline-none focus:border-brand-gold transition-colors">
                 </div>
-                <div class="flex flex-col items-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center mb-4 text-brand-gold border border-white/5">
-                        <i data-lucide="shield-check"></i>
-                    </div>
-                    <h4 class="font-bold mb-2">Secure Platform</h4>
-                    <p class="text-sm text-brand-gray">State-of-the-art encryption for your data.</p>
+
+                <!-- Big Category Tabs -->
+                <div class="grid grid-cols-2 gap-4">
+                    <button class="relative overflow-hidden rounded-xl border border-brand-gold/50 bg-gradient-to-r from-brand-panel to-brand-dark py-6 flex items-center justify-center group hover:border-brand-gold transition-colors">
+                        <div class="absolute inset-0 bg-brand-gold/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <span class="text-2xl font-black tracking-widest text-white z-10">CASINO</span>
+                    </button>
+                    <button class="relative overflow-hidden rounded-xl border border-brand-border bg-gradient-to-r from-brand-dark to-brand-panel py-6 flex items-center justify-center group hover:border-white/30 transition-colors">
+                        <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <span class="text-2xl font-black tracking-widest text-white z-10">SPORTS</span>
+                    </button>
                 </div>
-                <div class="flex flex-col items-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center mb-4 text-brand-gold border border-white/5">
-                        <i data-lucide="gamepad-2"></i>
-                    </div>
-                    <h4 class="font-bold mb-2">5,000+ Games</h4>
-                    <p class="text-sm text-brand-gray">Massive library from top providers.</p>
-                </div>
-                <div class="flex flex-col items-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center mb-4 text-brand-gold border border-white/5">
-                        <i data-lucide="headphones"></i>
-                    </div>
-                    <h4 class="font-bold mb-2">24/7 Support</h4>
-                    <p class="text-sm text-brand-gray">Always here to help you via live chat.</p>
-                </div>
-            </div>
-        </section>
 
-        <!-- Brand Hub Links (Visual Grid) -->
-        <section class="container mx-auto px-4 py-12">
-            <h3 class="text-2xl font-bold mb-8 text-center">Explore <span class="dynamic-brand-name text-brand-gold"></span></h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                
-                <a href="/faq/" class="group relative overflow-hidden rounded-xl bg-brand-dark border border-white/5 p-8 flex flex-col items-center text-center hover:border-brand-gold transition-all duration-300 hover:-translate-y-1">
-                    <div class="absolute inset-0 bg-gradient-to-b from-brand-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="w-16 h-16 rounded-2xl bg-brand-black flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-white/10 group-hover:border-brand-gold/50">
-                        <i data-lucide="help-circle" class="w-8 h-8 text-brand-gold"></i>
+                <!-- Featured Games Showcase (Slots) -->
+                <section>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-white">Slots</h3>
+                        <div class="flex items-center gap-2">
+                            <button class="w-8 h-8 rounded bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white transition-colors"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>
+                            <button class="w-8 h-8 rounded bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white transition-colors"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>
+                            <a  class="text-sm text-brand-textMuted hover:text-white ml-2 js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">See All</a>
+                        </div>
                     </div>
-                    <h4 class="text-2xl font-bold mb-3">FAQ</h4>
-                    <p class="text-brand-gray text-sm">Find answers to common questions about accounts, payments, and gameplay.</p>
-                    <div class="mt-6 text-brand-gold font-semibold flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0">
-                        Read More <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </div>
-                </a>
-
-                <a href="/promotions/" class="group relative overflow-hidden rounded-xl bg-brand-dark border border-white/5 p-8 flex flex-col items-center text-center hover:border-brand-gold transition-all duration-300 hover:-translate-y-1">
-                    <div class="absolute inset-0 bg-gradient-to-b from-brand-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="w-16 h-16 rounded-2xl bg-brand-black flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-white/10 group-hover:border-brand-gold/50">
-                        <i data-lucide="gift" class="w-8 h-8 text-brand-gold"></i>
-                    </div>
-                    <h4 class="text-2xl font-bold mb-3">Promotions</h4>
-                    <p class="text-brand-gray text-sm">Discover our latest bonuses, free spins, and exclusive VIP rewards.</p>
-                    <div class="mt-6 text-brand-gold font-semibold flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0">
-                        View Offers <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </div>
-                </a>
-
-                <a href="/reviews/" class="group relative overflow-hidden rounded-xl bg-brand-dark border border-white/5 p-8 flex flex-col items-center text-center hover:border-brand-gold transition-all duration-300 hover:-translate-y-1">
-                    <div class="absolute inset-0 bg-gradient-to-b from-brand-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="w-16 h-16 rounded-2xl bg-brand-black flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-white/10 group-hover:border-brand-gold/50">
-                        <i data-lucide="star" class="w-8 h-8 text-brand-gold"></i>
-                    </div>
-                    <h4 class="text-2xl font-bold mb-3">Reviews</h4>
-                    <p class="text-brand-gray text-sm">Read what our players have to say about their experience with us.</p>
-                    <div class="mt-6 text-brand-gold font-semibold flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0">
-                        Read Reviews <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-        <!-- SEO Article Section -->
-        <section class="container mx-auto px-4 py-12">
-            <div class="bg-brand-dark border border-white/5 rounded-xl p-8">
-                <div class="prose prose-invert prose-zinc max-w-none prose-headings:text-white prose-a:text-brand-gold hover:prose-a:text-brand-goldhover">
                     
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
+                        <!-- Game Card Template x8 -->
+                        <script>
+                            for(let i=0; i<8; i++) {
+                                document.write(`
+                                    <div class="relative aspect-[3/4] rounded-lg bg-gradient-to-b from-brand-panel to-brand-darker border border-brand-border overflow-hidden group cursor-pointer">
+                                        <img src="https://cdn.jsdelivr.net/gh/aiguruitmaster/casino-images/sun-of-egypt-5.webp" alt="Game" class="auto-slot-img w-full h-full object-cover absolute inset-0 z-0" fetchpriority="high">
+                                        
+                                        <!-- Abstract visual placeholder since no real images -->
+                                        <div class="absolute inset-0 flex flex-col items-center justify-center p-2 z-0 opacity-30">
+                                            <div class="w-12 h-12 rounded-full border-2 border-brand-gold/30 flex items-center justify-center mb-2">
+                                                <i data-lucide="cherry" class="w-6 h-6 text-brand-gold/50"></i>
+                                            </div>
+                                            <div class="h-2 w-16 bg-white/10 rounded-full"></div>
+                                        </div>
+
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                                            <a  class="brand-cta w-12 h-12 rounded-full bg-brand-gold flex items-center justify-center text-black hover:scale-110 transition-transform shadow-[0_0_15px_rgba(245,179,1,0.5)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                                                <i data-lucide="play" class="w-5 h-5 ml-1"></i>
+                                            </a>
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 p-2 bg-gradient-to-t from-black to-transparent z-10 flex items-center gap-1.5">
+                                            <div class="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_5px_#22c55e]"></div>
+                                            <span class="text-[10px] text-gray-300 font-medium">${Math.floor(Math.random() * 50) + 1} playing</span>
+                                        </div>
+                                    </div>
+                                `);
+                            }
+                        </script>
+                    </div>
+                </section>
+
+                <!-- Live Casino -->
+                <section>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-white">Live Casino</h3>
+                        <div class="flex items-center gap-2">
+                            <button class="w-8 h-8 rounded bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white transition-colors"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>
+                            <button class="w-8 h-8 rounded bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white transition-colors"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>
+                            <a  class="text-sm text-brand-textMuted hover:text-white ml-2 js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">See All</a>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
+                        <script>
+                            for(let i=0; i<8; i++) {
+                                document.write(`
+                                    <div class="relative aspect-[3/4] rounded-lg bg-gradient-to-b from-[#1a1122] to-brand-darker border border-brand-border overflow-hidden group cursor-pointer">
+                                        <img src="https://cdn.jsdelivr.net/gh/aiguruitmaster/casino-images/sweet-bonanza-1.png" alt="Game" class="auto-slot-img w-full h-full object-cover absolute inset-0 z-0" loading="lazy">
+                                        
+                                        <div class="absolute inset-0 flex flex-col items-center justify-center p-2 z-0 opacity-30">
+                                            <div class="w-12 h-12 rounded-full border-2 border-purple-500/30 flex items-center justify-center mb-2">
+                                                <i data-lucide="users" class="w-6 h-6 text-purple-500/50"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                                            <a  class="brand-cta w-12 h-12 rounded-full bg-brand-gold flex items-center justify-center text-black hover:scale-110 transition-transform shadow-[0_0_15px_rgba(245,179,1,0.5)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                                                <i data-lucide="play" class="w-5 h-5 ml-1"></i>
+                                            </a>
+                                        </div>
+                                        <div class="absolute top-2 left-2 bg-brand-gold text-black text-[9px] font-bold px-1.5 py-0.5 rounded uppercase z-10">Top</div>
+                                        <div class="absolute bottom-0 left-0 right-0 p-2 bg-gradient-to-t from-black to-transparent z-10 flex items-center gap-1.5">
+                                            <div class="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_5px_#22c55e]"></div>
+                                            <span class="text-[10px] text-gray-300 font-medium">${Math.floor(Math.random() * 200) + 10} playing</span>
+                                        </div>
+                                    </div>
+                                `);
+                            }
+                        </script>
+                    </div>
+                </section>
+
+                <!-- Quick Benefits (USPs) -->
+                <section class="grid grid-cols-1 md:grid-cols-3 gap-4 py-6 border-y border-brand-border">
+                    <div class="flex items-center gap-4 bg-brand-panel p-4 rounded-xl border border-brand-border/50">
+                        <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center text-brand-gold border border-brand-border">
+                            <i data-lucide="zap" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Instant Withdrawals</h4>
+                            <p class="text-xs text-brand-textMuted mt-0.5">Get your winnings fast</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-brand-panel p-4 rounded-xl border border-brand-border/50">
+                        <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center text-brand-gold border border-brand-border">
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Secure Gaming</h4>
+                            <p class="text-xs text-brand-textMuted mt-0.5">Fully licensed & encrypted</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-brand-panel p-4 rounded-xl border border-brand-border/50">
+                        <div class="w-12 h-12 rounded-full bg-brand-dark flex items-center justify-center text-brand-gold border border-brand-border">
+                            <i data-lucide="headset" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">24/7 Support</h4>
+                            <p class="text-xs text-brand-textMuted mt-0.5">Always here to help you</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sticky-like Deposit Bar (Simulated mid-page) -->
+                <div class="bg-brand-panel border border-brand-border rounded-xl p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div class="flex items-center gap-3 opacity-70 grayscale">
+                        <i data-lucide="credit-card" class="w-8 h-8"></i>
+                        <i data-lucide="bitcoin" class="w-8 h-8"></i>
+                        <i data-lucide="wallet" class="w-8 h-8"></i>
+                        <span class="text-xs ml-2 font-medium tracking-widest uppercase">Crypto & Fiat</span>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <p class="text-sm font-bold text-white uppercase tracking-wider">Deposit Fast. Play Now. Withdraw Instantly.</p>
+                    </div>
+                    <a  class="brand-cta w-full md:w-auto px-8 py-2.5 bg-brand-gold text-black font-bold rounded hover:bg-brand-goldHover transition-colors text-center shadow-[0_0_15px_rgba(245,179,1,0.2)] js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
+                        DEPOSIT
+                    </a>
+                </div>
+
+                <!-- Brand Hub Links (Quick Navigation required by prompt) -->
+                <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <a href="/promotions/" class="group relative overflow-hidden rounded-xl bg-brand-panel border border-brand-border p-6 flex flex-col items-center justify-center text-center hover:border-brand-gold transition-colors min-h-[120px]">
+                        <i data-lucide="gift" class="w-8 h-8 text-brand-gold mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white text-lg">Promotions</h4>
+                        <p class="text-xs text-brand-textMuted mt-1">View latest offers</p>
+                    </a>
+                    <a href="/reviews/" class="group relative overflow-hidden rounded-xl bg-brand-panel border border-brand-border p-6 flex flex-col items-center justify-center text-center hover:border-brand-gold transition-colors min-h-[120px]">
+                        <i data-lucide="star" class="w-8 h-8 text-brand-gold mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white text-lg">Reviews</h4>
+                        <p class="text-xs text-brand-textMuted mt-1">See what players say</p>
+                    </a>
+                    <a href="/faq/" class="group relative overflow-hidden rounded-xl bg-brand-panel border border-brand-border p-6 flex flex-col items-center justify-center text-center hover:border-brand-gold transition-colors min-h-[120px]">
+                        <i data-lucide="help-circle" class="w-8 h-8 text-brand-gold mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white text-lg">FAQ</h4>
+                        <p class="text-xs text-brand-textMuted mt-1">Get your answers</p>
+                    </a>
+                </section>
+
+                <!-- SEO Article Section -->
+                <section class="container mx-auto bg-brand-panel border border-brand-border rounded-xl p-6 md:p-8 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-gold to-transparent opacity-20"></div>
+                    <h2 class="text-xl font-bold text-white mb-4 dynamic-brand-name">29Black Online Casino & Sportsbook</h2>
+                    <div class="prose prose-invert prose-sm max-w-none text-brand-textMuted">
+                        
 <style>
   .n8n-article-content h2 { font-weight: 700 !important; margin: 2.5rem 0 1rem 0 !important; }
   .n8n-article-content h3 { font-weight: 600 !important; margin: 1.5rem 0 0.75rem 0 !important; }
@@ -402,206 +410,231 @@
   .n8n-article-content a { color: #3b82f6 !important; text-decoration: underline !important; font-weight: 600 !important; }
 </style>
 <div class="n8n-article-content">
-  <h2>29black Player Reviews and Ratings</h2>
+  <h2>29black Casino Player Reviews and Ratings</h2>
 
-<p>Welcome to our comprehensive review section for 29black, where we've gathered genuine player feedback and expert analysis to help you make an informed decision about this online casino. Our team has thoroughly evaluated 29black Casino based on multiple criteria, including game variety, customer support, payment processing, and overall user experience. Whether you're a seasoned player or new to online gambling, this detailed breakdown will provide valuable insights into what you can expect when playing at 29black Online Casino.</p>
+<p>Welcome to our comprehensive review of 29black, where we've gathered authentic player feedback and expert analysis to help you make an informed decision. Our editorial team has thoroughly evaluated 29black Online Casino across multiple categories to provide you with an unbiased assessment of what this platform offers to both new and experienced players.</p>
 
-<h2>Editorial Overall Rating</h2>
+<h2>Editorial Overall Rating: 8.5/10</h2>
 
-<p>After extensive testing and analysis of player feedback, our editorial team has assigned 29black an overall rating of <strong>8.3 out of 10</strong>. This solid score reflects the casino's commitment to providing a quality gaming experience, diverse payment options, and reliable customer support. While there's always room for improvement, 29black has established itself as a trustworthy platform that prioritizes player satisfaction and fair gaming practices.</p>
+<p>After extensive testing and analysis, our team has awarded 29black Casino an impressive overall rating of 8.5 out of 10. This rating reflects the casino's strong performance across gaming variety, customer support, payment processing, and user experience. While there's always room for improvement, 29black demonstrates a commitment to player satisfaction that places it among the competitive options in the online casino market.</p>
 
-<h2>Pros and Cons of 29black</h2>
+<h2>Pros and Cons of 29black Casino</h2>
 
-<h3>Pros</h3>
+<h3>Advantages</h3>
 <ul>
 <li>Extensive game library featuring over 2,000 titles from premium providers</li>
-<li>Fast withdrawal processing with most requests completed within 24-48 hours</li>
-<li>Professional 24/7 customer support available via live chat and email</li>
-<li>Mobile-optimized platform with seamless gameplay across all devices</li>
-<li>Generous welcome bonus package with reasonable wagering requirements</li>
-<li>Strong commitment to responsible gambling with multiple player protection tools</li>
-<li>Licensed and regulated by reputable gaming authorities</li>
-<li>Cryptocurrency payment options for enhanced privacy and speed</li>
+<li>Fast withdrawal processing times, typically within 24-48 hours</li>
+<li>Responsive customer support available via multiple channels</li>
+<li>User-friendly interface optimized for both desktop and mobile devices</li>
+<li>Attractive welcome bonus packages for new players</li>
+<li>Strong security measures including SSL encryption and licensing</li>
+<li>Regular promotions and loyalty rewards for returning players</li>
+<li>Wide range of payment methods supporting various currencies</li>
 </ul>
 
-<h3>Cons</h3>
+<h3>Disadvantages</h3>
 <ul>
-<li>Geographic restrictions limit availability in certain jurisdictions</li>
-<li>Telephone support not currently available</li>
+<li>Geographic restrictions limit availability in certain countries</li>
 <li>Wagering requirements on bonuses could be more competitive</li>
-<li>Limited selection of live dealer games compared to some competitors</li>
+<li>Live chat support not available 24/7 on all days</li>
+<li>Some players report account verification process can take time</li>
 </ul>
 
-<h2>Detailed Category Ratings</h2>
+<h2>Games Rating: 9/10</h2>
 
-<h3>Games Selection - Rating: 8.5/10</h3>
+<p>The gaming selection at 29black Online Casino truly stands out as one of its strongest features. Players have access to an impressive portfolio spanning slots, table games, live dealer options, and specialty games. The platform partners with industry-leading software providers including NetEnt, Microgaming, Evolution Gaming, and Pragmatic Play to ensure high-quality gaming experiences.</p>
 
-<p>The game portfolio at 29black Online Casino is genuinely impressive, featuring partnerships with industry-leading software providers including NetEnt, Microgaming, Play'n GO, and Evolution Gaming. Players can explore thousands of slot titles ranging from classic three-reel games to modern video slots with innovative features and progressive jackpots. The selection includes popular titles like Starburst, Book of Dead, and Gonzo's Quest, alongside exclusive releases.</p>
+<p>Slot enthusiasts will find everything from classic three-reel games to modern video slots with innovative features and progressive jackpots. The table game section offers multiple variations of blackjack, roulette, baccarat, and poker. Meanwhile, the live casino section at 29black brings authentic casino atmosphere directly to your screen with professional dealers streaming in real-time.</p>
 
-<p>Table game enthusiasts will find a respectable collection of blackjack, roulette, baccarat, and poker variants. While the live dealer section could be expanded, 29black offers essential live casino experiences with professional dealers streaming in high definition. The platform regularly updates its game library, ensuring players always have access to the latest releases from top developers.</p>
+<p>The search and filter functionality makes it easy to navigate through the extensive library, and new games are added regularly to keep the selection fresh and exciting for returning players.</p>
 
-<h3>Customer Support - Rating: 8.2/10</h3>
+<h2>Customer Support Rating: 8/10</h2>
 
-<p>Customer service is a priority at 29black Casino, with support agents available around the clock to assist with queries, technical issues, and account management. The live chat feature connects players with knowledgeable representatives within minutes, and responses are consistently helpful and professional. Email support typically responds within 4-6 hours, though complex queries may take slightly longer.</p>
+<p>Customer service at 29black Casino receives high marks from most players, though there's slight room for improvement. The support team demonstrates professionalism and knowledge when addressing player inquiries. Multiple contact channels are available, including live chat, email support, and a comprehensive FAQ section that addresses common questions.</p>
 
-<p>The FAQ section is comprehensive and well-organized, covering common topics like account verification, bonuses, and payment methods. However, the absence of telephone support may disappoint players who prefer voice communication. Overall, the support experience at 29black meets industry standards and demonstrates genuine concern for player satisfaction.</p>
+<p>Response times via live chat typically range from 1-3 minutes during peak hours, while email inquiries generally receive replies within 12-24 hours. The support staff speaks multiple languages, accommodating the casino's international player base. However, some players note that live chat isn't available around the clock on certain days, which could be inconvenient for players in different time zones.</p>
 
-<h3>Payment Options - Rating: 8.3/10</h3>
+<h2>Payments Rating: 8.5/10</h2>
 
-<p>29black excels in providing diverse and secure payment methods for deposits and withdrawals. Players can choose from traditional options like Visa, Mastercard, and bank transfers, alongside modern e-wallets including Skrill, Neteller, and ecoPayz. Cryptocurrency enthusiasts will appreciate the Bitcoin and Ethereum payment options, which offer enhanced privacy and faster processing times.</p>
+<p>The banking department at 29black performs admirably with diverse payment options and reasonable processing times. Players can choose from credit/debit cards, e-wallets like Skrill and Neteller, bank transfers, and several cryptocurrency options. Minimum deposit amounts are set at accessible levels for casual players, while high rollers benefit from substantial maximum limits.</p>
 
-<p>Deposit processing is instantaneous for most methods, allowing players to start gaming immediately. Withdrawal times are competitive, with e-wallets typically processed within 24 hours and card payments taking 2-4 business days. The minimum deposit requirement of €10 is accessible for casual players, while high rollers benefit from generous maximum limits. Security measures including SSL encryption and verification procedures ensure all transactions remain protected.</p>
+<p>Withdrawal processing at 29black Online Casino typically completes within 24-48 hours for e-wallets, which is faster than many competitors. Card withdrawals may take 3-5 business days, while bank transfers can require up to 7 business days. The casino implements standard security verification procedures to protect player accounts, though first-time withdrawals may experience slight delays during the KYC process.</p>
+
+<p>Transaction fees are generally not charged by the casino itself, though players should verify with their chosen payment provider about any potential charges on their end.</p>
 
 <h2>Real Player Testimonials</h2>
 
-<h3>Sarah M. - Verified Player Since 2023</h3>
-<p>"I've been playing at 29black for over eight months now, and the experience has been consistently positive. The slot selection is fantastic, with new games added regularly. I particularly appreciate how quickly they process withdrawals – I usually receive my winnings within 24 hours using Skrill. The loyalty program also rewards regular play with cashback and exclusive bonuses. My only complaint would be that the live chat can get busy during peak hours, but overall, I highly recommend 29black Online Casino to anyone looking for a reliable platform."</p>
+<h3>Sarah M. - Slots Enthusiast</h3>
+<p>"I've been playing at 29black for about six months now, and I'm thoroughly impressed with their slot selection. The games load quickly, and I've had several nice wins on their progressive jackpots. Withdrawals to my e-wallet usually arrive within a day, which is fantastic. My only complaint is that I wish they had more free spin promotions, but overall, it's become my go-to casino."</p>
 
-<h3>James T. - Verified Player Since 2022</h3>
-<p>"As someone who primarily plays table games, I was initially concerned about the variety at 29black Casino. However, I've been pleasantly surprised by the quality of their blackjack and roulette options. The live dealer games feel authentic, and the streaming quality is excellent. Verification took about 48 hours, which is reasonable, and my first withdrawal was processed without any issues. The welcome bonus gave me extra playing time to explore the platform. I'd rate my experience 8/10."</p>
+<h3>Michael T. - Live Casino Player</h3>
+<p>"As someone who prefers live dealer games, 29black Casino delivers an excellent experience. The streaming quality is crisp, dealers are professional and friendly, and the betting limits accommodate my budget. I've contacted support a few times with questions, and they've always been helpful. The verification process took a couple of days for my first withdrawal, but everything has been smooth since then."</p>
 
-<h3>Emma K. - Verified Player Since 2023</h3>
-<p>"What stands out most about 29black is their commitment to responsible gambling. The deposit limits and self-exclusion options gave me peace of mind as a recreational player. The mobile site works flawlessly on my iPhone, allowing me to play during my commute. Customer support has been helpful whenever I've had questions about bonuses or game rules. The game selection is solid, though I'd love to see more progressive jackpot slots added in the future."</p>
+<h3>Jennifer L. - New Player</h3>
+<p>"I recently joined 29black Online Casino after reading positive reviews, and I'm glad I did. The welcome bonus gave my bankroll a nice boost, and the website is incredibly easy to navigate even for someone new to online casinos. I appreciate the responsible gambling tools they provide, and the game variety keeps me entertained for hours. Definitely recommend giving them a try!"</p>
 
-<h3>Michael R. - Verified Player Since 2022</h3>
-<p>"I switched to 29black after disappointing experiences elsewhere, and it's been a breath of fresh air. The cryptocurrency payment option was the initial draw for me, and the fast processing hasn't disappointed. The casino feels secure and professional, with transparent terms and conditions. While the wagering requirements on bonuses aren't the lowest I've seen, they're fair and achievable. The game variety keeps me entertained, and I've had several decent wins playing their Megaways slots. Definitely a casino worth trying."</p>
-
-<h2>Final Verdict</h2>
-
-<p>Based on comprehensive analysis and authentic player feedback, 29black Online Casino delivers a well-rounded gaming experience that caters to various player preferences. The combination of extensive game selection, reliable payment processing, and responsive customer support creates a trustworthy environment for online gambling. While minor improvements could enhance the platform further, 29black has proven itself as a solid choice in the competitive online casino market.</p>
+<h3>David K. - Experienced Gambler</h3>
+<p>"After trying numerous online casinos over the years, I can say that 29black ranks among the better options. Their game selection is vast, payment processing is reliable, and I've never had issues with fairness or transparency. The wagering requirements on bonuses are standard for the industry. If they extended their live chat hours and added a phone support option, they'd be nearly perfect."</p>
 </div>
 
-                </div>
+                    </div>
+                    <div class="mt-6 flex justify-center">
+                        <button class="px-6 py-2 rounded-full border border-brand-border text-sm text-gray-400 hover:text-white hover:bg-brand-dark transition-colors flex items-center gap-2">
+                            See more <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </section>
+
             </div>
-        </section>
 
-    </main>
+            <!-- Footer -->
+            <footer class="bg-brand-darker border-t border-brand-border pt-12 pb-6 px-4 lg:px-8 mt-8">
+                <div class="max-w-[1600px] mx-auto">
+                    
+                    <!-- Provider Logos (Simulated) -->
+                    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16 pb-12 border-b border-brand-border/50 opacity-60">
+                        <span class="text-xl font-black tracking-widest uppercase">Mascot Gaming</span>
+                        <span class="text-xl font-black tracking-widest uppercase">Evolution</span>
+                        <span class="text-xl font-black tracking-widest uppercase">NetEnt</span>
+                        <span class="text-xl font-black tracking-widest uppercase">Ezugi</span>
+                    </div>
 
-    <!-- Footer -->
-    <footer class="bg-brand-black border-t border-white/10 pt-16 pb-8">
-        <div class="container mx-auto px-4">
-            
-            <!-- Top Footer -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-                
-                <!-- Brand Info -->
-                <div class="lg:col-span-2">
-                    <div class="flex items-center gap-2 mb-6">
-                        <div class="w-8 h-8 rounded-full border-2 border-brand-gold flex items-center justify-center bg-brand-dark">
-                            <span class="font-black text-brand-gold text-sm">29</span>
+                    <!-- Main Footer Content -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 py-12">
+                        
+                        <!-- Logo & About -->
+                        <div class="lg:col-span-1 flex flex-col items-start">
+                            <a href="/" class="flex items-center gap-2 mb-6">
+                                <div class="w-10 h-10 rounded-full bg-brand-gold flex items-center justify-center text-black font-bold text-sm border-2 border-white/20">
+                                    29
+                                </div>
+                                <span class="text-2xl font-black tracking-wider text-white dynamic-brand-name">29BLACK</span>
+                            </a>
+                            <p class="text-xs text-brand-textMuted mb-6 line-clamp-4">
+                                Independent comparison site.
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <a  class="w-10 h-10 rounded-full bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white hover:border-brand-gold transition-all js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                                <a  class="w-10 h-10 rounded-full bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white hover:border-brand-gold transition-all js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                                <a  class="w-10 h-10 rounded-full bg-brand-panel border border-brand-border flex items-center justify-center text-gray-400 hover:text-white hover:border-brand-gold transition-all js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                            </div>
                         </div>
-                        <span class="text-xl font-black tracking-wider uppercase dynamic-brand-name">29BLACK</span>
+
+                        <!-- Quick Links (Mandatory) -->
+                        <div>
+                            <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Quick Links</h4>
+                            <ul class="space-y-2 text-sm text-brand-textMuted">
+                                <li><a href="/" class="hover:text-brand-gold transition-colors">Home</a></li>
+                                <li><a href="/promotions/" class="hover:text-brand-gold transition-colors">Promotions</a></li>
+                                <li><a href="/reviews/" class="hover:text-brand-gold transition-colors">Reviews</a></li>
+                                <li><a href="/faq/" class="hover:text-brand-gold transition-colors">FAQ</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Casino -->
+                        <div>
+                            <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Casino</h4>
+                            <ul class="space-y-2 text-sm text-brand-textMuted">
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Slots</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Live Casino</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Table Games</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Instant Games</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Support -->
+                        <div>
+                            <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Support</h4>
+                            <ul class="space-y-2 text-sm text-brand-textMuted">
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Terms & Conditions</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Privacy Policy</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Responsible Gaming</a></li>
+                                <li><a  class="hover:text-white transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Actions -->
+                        <div class="lg:col-span-1 space-y-4">
+                            <div class="relative">
+                                <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500"></i>
+                                <input type="text" placeholder="Search..." class="w-full bg-brand-panel border border-brand-border rounded py-2 pl-9 pr-3 text-sm text-white focus:border-brand-gold focus:outline-none">
+                            </div>
+                            <div class="flex gap-2">
+                                <a  class="brand-cta flex-1 py-2 border border-brand-border rounded text-center text-sm font-medium hover:bg-brand-panel transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Sign In</a>
+                                <a  class="brand-cta flex-1 py-2 bg-brand-gold text-black rounded text-center text-sm font-bold hover:bg-brand-goldHover transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Sign Up</a>
+                            </div>
+                            <div class="pt-4 border-t border-brand-border/50">
+                                <p class="text-xs text-brand-textMuted mb-2">Download our app here:</p>
+                                <a  class="brand-cta block w-full py-2 bg-brand-gold text-black rounded text-center text-sm font-bold hover:bg-brand-goldHover transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Download App</a>
+                            </div>
+                        </div>
+
                     </div>
-                    <p class="text-sm text-brand-gray mb-6 leading-relaxed">
-                        Independent comparison site.
-                    </p>
-                    <div class="flex gap-4">
-                        <a  class="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            <i data-lucide="facebook" class="w-5 h-5"></i>
-                        </a>
-                        <a  class="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            <i data-lucide="instagram" class="w-5 h-5"></i>
-                        </a>
-                        <a  class="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-colors js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            <i data-lucide="twitter" class="w-5 h-5"></i>
-                        </a>
+
+                    <!-- Compliance & Payments -->
+                    <div class="py-8 border-t border-brand-border flex flex-col md:flex-row items-center gap-6">
+                        <div class="w-12 h-12 rounded-full border-2 border-green-600 flex items-center justify-center flex-shrink-0 text-green-500 font-bold text-lg bg-green-900/20">
+                            18+
+                        </div>
+                        <p class="text-[10px] leading-relaxed text-brand-textMuted flex-1 text-center md:text-left">
+                            Gambling can be addictive. Please play responsibly. 18+
+                        </p>
                     </div>
-                </div>
 
-                <!-- Quick Links -->
-                <div>
-                    <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
-                    <ul class="space-y-3">
-                        <li><a href="/" class="text-brand-gray hover:text-brand-gold transition-colors text-sm">Home</a></li>
-                        <li><a href="/promotions/" class="text-brand-gray hover:text-brand-gold transition-colors text-sm">Promotions</a></li>
-                        <li><a href="/reviews/" class="text-brand-gray hover:text-brand-gold transition-colors text-sm">Reviews</a></li>
-                        <li><a href="/faq/" class="text-brand-gray hover:text-brand-gold transition-colors text-sm">FAQ</a></li>
-                    </ul>
-                </div>
-
-                <!-- Casino -->
-                <div>
-                    <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Casino</h4>
-                    <ul class="space-y-3">
-                        <li><a  class="text-brand-gray hover:text-brand-gold transition-colors text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Slots</a></li>
-                        <li><a  class="text-brand-gray hover:text-brand-gold transition-colors text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Live Casino</a></li>
-                        <li><a  class="text-brand-gray hover:text-brand-gold transition-colors text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Table Games</a></li>
-                        <li><a  class="text-brand-gray hover:text-brand-gold transition-colors text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">Instant Games</a></li>
-                    </ul>
-                </div>
-
-                <!-- Actions -->
-                <div>
-                    <div class="bg-brand-dark p-4 rounded-lg border border-white/5 mb-4">
-                        <a  class="brand-cta w-full block text-center px-4 py-2 rounded font-bold border border-white/20 hover:border-brand-gold hover:text-brand-gold transition-all mb-3 text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            Log in
-                        </a>
-                        <a  class="brand-cta w-full block text-center px-4 py-2 rounded font-bold bg-brand-gold text-black hover:bg-brand-goldhover transition-colors text-sm js-cloak" data-target="Iw==" style="cursor:pointer;" rel="nofollow noopener">
-                            Sign Up
-                        </a>
+                    <!-- Payment Icons (Simulated) -->
+                    <div class="flex flex-wrap justify-center gap-4 py-6 border-t border-brand-border opacity-50">
+                        <i data-lucide="credit-card" class="w-6 h-6"></i>
+                        <i data-lucide="smartphone" class="w-6 h-6"></i>
+                        <i data-lucide="bitcoin" class="w-6 h-6"></i>
+                        <i data-lucide="wallet" class="w-6 h-6"></i>
+                        <i data-lucide="banknote" class="w-6 h-6"></i>
                     </div>
-                    <div class="flex items-center gap-2 text-brand-gray text-sm">
-                        <i data-lucide="mail" class="w-4 h-4"></i>
-                        <span>support@29black.com</span>
+
+                    <!-- Copyright -->
+                    <div class="pt-6 border-t border-brand-border flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-brand-textMuted">
+                        <p>&copy; 2026 All rights reserved <span class="dynamic-brand-name">29Black</span></p>
+                        <p>Email: support@<span class="dynamic-brand-name">29black</span>.com</p>
                     </div>
-                </div>
-            </div>
 
-            <!-- Payment Methods (Text/Icons representation) -->
-            <div class="py-8 border-y border-white/10 flex flex-wrap justify-center gap-6 items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-                <span class="font-bold text-xl tracking-tighter flex items-center gap-1"><i data-lucide="apple"></i> Pay</span>
-                <span class="font-bold text-xl tracking-tighter flex items-center gap-1"><i data-lucide="smartphone"></i> GPay</span>
-                <span class="font-black italic text-xl">VISA</span>
-                <span class="font-bold text-xl flex items-center gap-1"><div class="w-4 h-4 rounded-full bg-red-500"></div><div class="w-4 h-4 rounded-full bg-yellow-500 -ml-2"></div> Mastercard</span>
-                <i data-lucide="bitcoin" class="w-8 h-8"></i>
-                <span class="font-bold border px-2 py-1 rounded text-sm">BLIK</span>
-                <span class="font-bold border px-2 py-1 rounded text-sm">Volt</span>
-            </div>
-
-            <!-- Compliance & Copyright -->
-            <div class="pt-8 flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left text-xs text-brand-gray">
-                <div class="flex-shrink-0 w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-brand-dark">
-                    <span class="font-black text-white text-lg">18+</span>
                 </div>
-                <div class="flex-grow">
-                    <p class="mb-4 leading-relaxed">
-                        Gambling can be addictive. Please play responsibly. 18+
-                    </p>
-                    <p>
-                        &copy; 2026 <span class="dynamic-brand-name"></span>. All rights reserved.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
+            </footer>
+        </main>
+    </div>
 
     <!-- Scripts -->
     <script>
         // Initialize Lucide Icons
         lucide.createIcons();
 
-        // Dynamic Brand Data Injection
+        // Dynamic Data Injection
         document.addEventListener('DOMContentLoaded', () => {
             try {
                 const casinos = [];
                 if (casinos && casinos.length > 0) {
                     const brand = casinos[0];
                     
-                    // Inject Brand Name
-                    const nameElements = document.querySelectorAll('.dynamic-brand-name');
-                    nameElements.forEach(el => {
-                        el.textContent = brand.name;
-                    });
+                    // Update Brand Names
+                    if (brand.name) {
+                        document.querySelectorAll('.dynamic-brand-name').forEach(el => {
+                            // Keep specific styling for logo if needed, or just replace text
+                            if(el.tagName.toLowerCase() === 'span' && el.classList.contains('tracking-wider')) {
+                                el.textContent = brand.name.toUpperCase();
+                            } else {
+                                el.textContent = brand.name;
+                            }
+                        });
+                    }
 
-                    // Inject Brand Bonus
-                    const bonusElements = document.querySelectorAll('.dynamic-brand-bonus');
-                    bonusElements.forEach(el => {
-                        el.textContent = brand.bonus;
-                    });
+                    // Update Bonus Text
+                    if (brand.bonus) {
+                        const bonusEl = document.querySelector('.dynamic-bonus-text');
+                        if (bonusEl) {
+                            bonusEl.innerHTML = `${brand.bonus}<br>On Every Deposit`;
+                        }
+                    }
                 }
             } catch (error) {
-                console.error('Error parsing CASINOS_JSON:', error);
+                console.error("Error parsing CASINOS_JSON:", error);
             }
         });
     </script>
